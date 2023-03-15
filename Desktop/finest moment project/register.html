@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>register</title>
+<link rel="stylesheet" href="style1.css">
+<script>
+function yahoo()
+{
+alert("Submitted Successfully");
+}
+function tryagain()
+{
+alert("Make first step to register");
+}
+</script>
+</head>
+<body>
+        <div class="registartion-form">
+	<h1>Happy Registration!</h1>
+<form action="index.html" method="post" spellcheck="true">
+<p>FullName:</p>
+<input type="text" size="30" id="Fullname" placeholder="Enter your username" required/>
+<p>Email ID</p>
+<input type="email" size="30" id="email_id" placeholder="Enter your email ID"  required />
+<p>Event</p>
+<select >
+<option value="">Choose event</option>
+<option value="1">Engagement</option>
+<option value="2">Haldi</option>
+<option value="3">Sangeeth</option>
+<option value="4">Marriage</option>
+<option value="5">Bachelors party</option>
+</select>
+<p>Budget</p>
+<select >
+<option value="">Choose Budget</option>
+<option value="0">20k-30k</option>
+<option value="1">30k-50k</option>
+<option value="2">50k-75k</option>
+<option value="3">75k-100k</option>
+</select>
+<p>Phone number</p>
+<input type="text" id="phone_no" placeholder="Enter your contact number" pattern="+ [0-9] {12}"
+required />
+<table><tr><td><button type="submit" onclick="yahoo()">Submit</button></td><td><button type="clear" onclick="tryagain()">Clear</button></td></tr></table>
+</div>		 
+</form>
+</body>
+</html>
+
+

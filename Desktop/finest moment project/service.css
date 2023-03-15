@@ -1,0 +1,27 @@
+header
+{
+	font-size: 20px;
+	font-family: cursive;
+	text-align: center;
+	color: #ff99ff;
+}
+main
+{
+	margin-left: 120px;
+}
+.box
+{
+	display: block;
+	float: left;
+	width: 20%;
+}
+a{
+	color: orange;
+	font-size: 20px;
+}
+img
+{
+	height: 250px;
+	width: 250px;
+	border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:sans-serif;
+}
+body
+{
+	background:url('./bg.jpg') no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+}
+.registartion-form
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	widows: 400px;
+}
+.registartion-form h1
+{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+.registartion-form p
+{
+	font-size: 20px;
+	margin: 15px 0;
+}
+.registartion-form input
+{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+.registartion-form select
+{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	font-family:sans-serif;
+	outline: none;
+}
+.registartion-form button
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 100%;
+	border: 0;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.registartion-form button:hover
+{
+	color: red;
+}
